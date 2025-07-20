@@ -1,0 +1,24 @@
+#-----------------------------------------------------------
+# Vivado v2025.1 (64-bit)
+# SW Build 6140274 on Thu May 22 00:12:29 MDT 2025
+# IP Build 6138677 on Thu May 22 03:10:11 MDT 2025
+# SharedData Build 6139179 on Tue May 20 17:58:58 MDT 2025
+# Start of session at: Sun Jul 20 10:21:40 2025
+# Process ID         : 5140
+# Current directory  : C:/My files/Work related/7. NTNU/FPGA/Projects/8bit_cpu/8bit_cpu.runs/impl_1
+# Command line       : vivado.exe -log CPU.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source CPU.tcl -notrace
+# Log file           : C:/My files/Work related/7. NTNU/FPGA/Projects/8bit_cpu/8bit_cpu.runs/impl_1/CPU.vdi
+# Journal file       : C:/My files/Work related/7. NTNU/FPGA/Projects/8bit_cpu/8bit_cpu.runs/impl_1\vivado.jou
+# Running On         : Andreas
+# Platform           : Windows Server 2016 or Windows 10
+# Operating System   : 26100
+# Processor Detail   : AMD Ryzen 7 7840U with Radeon 780M Graphics    
+# CPU Frequency      : 3294 MHz
+# CPU Physical cores : 8
+# CPU Logical cores  : 16
+# Host memory        : 14701 MB
+# Swap memory        : 12884 MB
+# Total Virtual      : 27586 MB
+# Available Virtual  : 3740 MB
+#-----------------------------------------------------------
+source CPU.tcl -notrace

@@ -1,0 +1,31 @@
+srcscan starts
+=============== Using precompiled files for SV std libs ===========
+INFO: The Verilog library search path for library "std" is now "C:/Xilinx/2025.1/Vivado/data/precomp_hsv/sv/std" (VERI-1509)
+INFO: The Verilog library search path for library "uvm" is now "C:/Xilinx/2025.1/Vivado/data/precomp_hsv/sv/uvm" (VERI-1509)
+INFO: analyzing module ALU_engine (VERI-9002)
+INFO: analyzing module CPU (VERI-9002)
+INFO: analyzing module Condition_engine (VERI-9002)
+INFO: analyzing module PC_counter (VERI-9002)
+C:/My files/Work related/7. NTNU/FPGA/Projects/8bit_cpu/8bit_cpu.srcs/sources_1/new/instruction_decoder.sv(1): INFO: Compiling verilog file "C:/My files/Work related/7. NTNU/FPGA/Projects/8bit_cpu/8bit_cpu.srcs/sources_1/new/packages.sv" included at line 1. (VERI-9003)
+C:/My files/Work related/7. NTNU/FPGA/Projects/8bit_cpu/8bit_cpu.srcs/sources_1/new/packages.sv(3): WARNING: design element 'opcode_defs' is previously defined; ignoring this definition (VERI-2171)
+C:/My files/Work related/7. NTNU/FPGA/Projects/8bit_cpu/8bit_cpu.srcs/sources_1/new/instruction_decoder.sv(1): INFO: back to file 'C:/My files/Work related/7. NTNU/FPGA/Projects/8bit_cpu/8bit_cpu.srcs/sources_1/new/instruction_decoder.sv' (VERI-2320)
+INFO: analyzing module Instruction_decoder (VERI-9002)
+INFO: analyzing module power_on_reset (VERI-9002)
+INFO: analyzing module register_file (VERI-9002)
+C:/My files/Work related/7. NTNU/FPGA/Projects/8bit_cpu/8bit_cpu.srcs/sources_1/new/register_file.sv(28): INFO: undeclared symbol 'rd_data2', assumed default net type 'wire' (VERI-2561)
+Listing tops:
+VeriTop library:xil_defaultlib mod:ALU_engine
+VeriTop library:xil_defaultlib mod:CPU
+VeriTop library:xil_defaultlib mod:Condition_engine
+VeriTop library:xil_defaultlib mod:Instruction_decoder
+VeriTop library:xil_defaultlib mod:power_on_reset
+VeriTop library:xil_defaultlib mod:register_file
+END of tops
+C:/My files/Work related/7. NTNU/FPGA/Projects/8bit_cpu/8bit_cpu.srcs/sources_1/new/ALU_engine.sv(23): INFO: compiling module 'ALU_engine_default' (VERI-1018)
+C:/My files/Work related/7. NTNU/FPGA/Projects/8bit_cpu/8bit_cpu.srcs/sources_1/new/CPU.sv(23): INFO: compiling module 'CPU_default' (VERI-1018)
+C:/My files/Work related/7. NTNU/FPGA/Projects/8bit_cpu/8bit_cpu.srcs/sources_1/new/Condition_engine.sv(23): INFO: compiling module 'Condition_engine_default' (VERI-1018)
+C:/My files/Work related/7. NTNU/FPGA/Projects/8bit_cpu/8bit_cpu.srcs/sources_1/new/instruction_decoder.sv(4): INFO: compiling module 'Instruction_decoder_default' (VERI-1018)
+C:/My files/Work related/7. NTNU/FPGA/Projects/8bit_cpu/8bit_cpu.srcs/sources_1/new/power_on_reset.sv(3): INFO: compiling module 'power_on_reset_default' (VERI-1018)
+C:/My files/Work related/7. NTNU/FPGA/Projects/8bit_cpu/8bit_cpu.srcs/sources_1/new/register_file.sv(3): INFO: compiling module 'register_file_default' (VERI-1018)
+C:/My files/Work related/7. NTNU/FPGA/Projects/8bit_cpu/8bit_cpu.srcs/sources_1/new/packages.sv(8): ERROR: duplicate member values in enum definition for enum literal 'CONDITION' (VERI-1319)
+srcscan exits with return value 0

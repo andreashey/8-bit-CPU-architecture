@@ -1,0 +1,36 @@
+// IMMEDIATE = 2'b00
+// COMPUTE   = 2'b01
+// COPY      = 2'b10
+// CONDITION = 2'b11
+
+// 6'b000_000: condition_met = 6'b0; //never      
+// 6'b000_001: condition_met = i_reg_3 == 0;      
+// 6'b000_010: condition_met = i_reg_3 < 0;       
+// 6'b000_011: condition_met = i_reg_3 > 0;       
+                                               
+// 6'b000_111: condition_met = 6'b1; //always     
+// 6'b000_100: condition_met = i_reg_3 == 0; //?? 
+// 6'b000_101: condition_met = i_reg_3 <= 0;      
+// 6'b000_110: condition_met = i_reg_3 >= 0;      
+// default: condition_met = 0;                    
+
+//program that add one and output
+
+// Add one to reg 1
+00_000_001
+10_000_001
+
+// Add
+01_000_100 //index 2
+
+// Move back to reg 2 and output
+10_011_010
+10_011_110
+
+// Go back to add
+00_000_010 //immediate index 2
+11_000_111 //true
+
+
+
+

@@ -1,0 +1,105 @@
+Time resolution is 1 ps
+create init with file: 'program.mem'
+addr=   0  rst = 1
+r0 = x  r1 = x  r2 = x  r3 = x 
+
+addr=   0  rst = 1
+r0 = 0  r1 = 0  r2 = 0  r3 = 0 
+
+addr=   0  rst = 0
+r0 = 0  r1 = 0  r2 = 0  r3 = 0 
+
+addr=   1  rst = 0
+r0 = 1  r1 = 0  r2 = 0  r3 = 0 
+
+addr=   2  rst = 0
+r0 = 1  r1 = 1  r2 = 0  r3 = 0 
+
+addr=   3  rst = 0
+r0 = 1  r1 = 1  r2 = 0  r3 = 1 
+
+$finish called at time : 150 ns : File "C:/My files/Work related/7. NTNU/FPGA/Projects/8bit_cpu/8bit_cpu.srcs/sim_1/new/CPU_sim.sv" Line 53
+addr=   4  rst = 0
+r0 = 1  r1 = 1  r2 = 1  r3 = 1 
+
+addr=   5  rst = 0
+r0 = 1  r1 = 1  r2 = 1  r3 = 1 
+
+addr=   6  rst = 0
+r0 = 2  r1 = 1  r2 = 1  r3 = 1 
+
+addr=   2  rst = 0
+r0 = 2  r1 = 1  r2 = 1  r3 = 1 
+
+addr=   3  rst = 0
+r0 = 2  r1 = 1  r2 = 1  r3 = 2 
+
+addr=   3  rst = 0
+r0 = 2  r1 = 1  r2 = 0  r3 = 2 
+
+addr=   4  rst = 0
+r0 = 2  r1 = 1  r2 = 2  r3 = 2 
+
+addr=   5  rst = 0
+r0 = 2  r1 = 1  r2 = 2  r3 = 2 
+
+addr=   6  rst = 0
+r0 = 2  r1 = 1  r2 = 2  r3 = 2 
+
+addr=   2  rst = 0
+r0 = 2  r1 = 1  r2 = 2  r3 = 2 
+
+addr=   3  rst = 0
+r0 = 2  r1 = 1  r2 = 2  r3 = 3 
+
+addr=   3  rst = 0
+r0 = 2  r1 = 1  r2 = 0  r3 = 3 
+
+addr=   4  rst = 0
+r0 = 2  r1 = 1  r2 = 3  r3 = 3 
+
+addr=   5  rst = 0
+r0 = 2  r1 = 1  r2 = 3  r3 = 3 
+
+addr=   6  rst = 0
+r0 = 2  r1 = 1  r2 = 3  r3 = 3 
+
+addr=   2  rst = 0
+r0 = 2  r1 = 1  r2 = 3  r3 = 3 
+
+addr=   3  rst = 0
+r0 = 2  r1 = 1  r2 = 3  r3 = 4 
+
+addr=   3  rst = 0
+r0 = 2  r1 = 1  r2 = 0  r3 = 4 
+
+addr=   4  rst = 0
+r0 = 2  r1 = 1  r2 = 4  r3 = 4 
+
+addr=   5  rst = 0
+r0 = 2  r1 = 1  r2 = 4  r3 = 4 
+
+addr=   6  rst = 0
+r0 = 2  r1 = 1  r2 = 4  r3 = 4 
+
+addr=   2  rst = 0
+r0 = 2  r1 = 1  r2 = 4  r3 = 4 
+
+addr=   3  rst = 0
+r0 = 2  r1 = 1  r2 = 4  r3 = 5 
+
+addr=   3  rst = 0
+r0 = 2  r1 = 1  r2 = 0  r3 = 5 
+
+addr=   4  rst = 0
+r0 = 2  r1 = 1  r2 = 5  r3 = 5 
+
+addr=   5  rst = 0
+r0 = 2  r1 = 1  r2 = 5  r3 = 5 
+
+addr=   6  rst = 0
+r0 = 2  r1 = 1  r2 = 5  r3 = 5 
+
+addr=   2  rst = 0
+r0 = 2  r1 = 1  r2 = 5  r3 = 5 
+

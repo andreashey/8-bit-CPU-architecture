@@ -1,0 +1,19 @@
+// IMMEDIATE = 00
+// COMPUTE   = 01
+// COPY      = 10
+// CONDITION = 11
+
+// add 3 to reg 2
+00_000_011
+10_000_010
+
+// Set index for reg 0
+00_000_011 // index 3
+
+// Load input from buttons to reg 1
+10_111_001
+01_000_110
+
+10_011_110 // To output
+
+11_000_111 // back to index 3
